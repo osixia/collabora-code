@@ -6,6 +6,6 @@ RUN apt-get -y update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-COPY fonts /usr/share/fonts/truetype/customs
+COPY fonts /usr/share/fonts/truetype/local
 
-RUN fc-cache
+RUN cp -rf /usr/share/fonts/truetype/* /opt/collaboraoffice6.0/share/fonts/truetype && fc-cache
