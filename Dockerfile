@@ -12,4 +12,4 @@ COPY fonts /usr/share/fonts/truetype
 
 RUN mv /usr/share/fonts/truetype/* /opt/collaboraoffice6.4/share/fonts/truetype
 
-USER 101
+USER 104
