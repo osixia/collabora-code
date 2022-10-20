@@ -10,6 +10,6 @@ RUN apt-get -y update \
 
 COPY fonts /usr/share/fonts/truetype
 
-RUN mv /usr/share/fonts/truetype/* /opt/collaboraoffice6.4/share/fonts/truetype
+RUN mv /usr/share/fonts/truetype/* /opt/collaboraoffice/share/fonts/truetype
 
 USER 104
