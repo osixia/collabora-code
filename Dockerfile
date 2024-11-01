@@ -14,8 +14,4 @@ COPY fonts /usr/share/fonts/truetype
 
 RUN mv /usr/share/fonts/truetype/* /opt/collaboraoffice/share/fonts/truetype
 
-<<<<<<< HEAD
-USER 104
-=======
 USER 100
->>>>>>> c5ea316 (-)
